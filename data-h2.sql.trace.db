@@ -1,0 +1,12 @@
+2023-02-08 21:51:44 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "SECTION1" not found (this database is empty); SQL statement:
+select e1_0.id,e1_0.char1,e1_0.double1,e1_0.float1,e1_0.int1,e1_0.string1 from section1 e1_0 where e1_0.id=? [42104-214]
+2023-02-08 21:52:08 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "SECTION1" not found (this database is empty); SQL statement:
+select e1_0.id,e1_0.char1,e1_0.double1,e1_0.float1,e1_0.int1,e1_0.string1 from section1 e1_0 where e1_0.id=? [42104-214]
+2023-02-08 21:58:43 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "SECTION1" not found (this database is empty); SQL statement:
+select e1_0.id,e1_0.char1,e1_0.double1,e1_0.float1,e1_0.int1,e1_0.string1 from section1 e1_0 where e1_0.id=? [42104-214]
+2023-02-08 22:00:21 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "SECTION1" not found (this database is empty); SQL statement:
+select e1_0.id,e1_0.char1,e1_0.double1,e1_0.float1,e1_0.int1,e1_0.string1 from section1 e1_0 where e1_0.id=? [42104-214]
