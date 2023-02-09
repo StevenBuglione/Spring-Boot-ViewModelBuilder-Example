@@ -6,19 +6,15 @@ import com.example.viewmodelbuilder.repository.impl.Entity2Repository;
 import com.example.viewmodelbuilder.service.base.SectionService;
 import com.example.viewmodelbuilder.service.viewmodel.section.base.Section;
 import com.example.viewmodelbuilder.service.viewmodel.section.impl.Section_1;
+import lombok.RequiredArgsConstructor;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
+@RequiredArgsConstructor
 @Service("section1")
 public class SectionServiceImpl_1 implements SectionService {
 
-    private Entity1Repository repo1;
-
-
-    @Autowired
-    private SectionServiceImpl_1(Entity1Repository _repo1){
-        repo1 = _repo1;
-    }
+    private final Entity1Repository repo1;
 
     @Override
     public Section getSection() {
